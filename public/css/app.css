@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f7;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.mb-3 label {
+    color: #666;
+    font-weight: bold;
+}
+
+.mb-3 input, 
+.mb-3 select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button, input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+svg {
+    width: 1em;  /* or any other value that fits your design */
+    height: 1em; /* ensure this is the same as width to keep it proportional */
+}
